@@ -1,0 +1,135 @@
+body {
+    background-color: whitesmoke;
+}
+
+.nav-bar {
+    padding-top: 50px;
+}
+
+.display-2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar ul {
+    padding-left: 0;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 28px;
+    padding-left: 35px;
+}
+
+.nav-bar ul li:hover {
+    cursor: pointer;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    transition: color 0.20s ease-out;
+    color: #E40A18;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Persona5;
+    src: url(jackfrost.ttf);
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+.info-block {
+    height: 510px;
+}
+
+.block-text {
+    color: white;
+    text-align: center;
+    font-family: Persona5;
+    font-size: 30px;
+}
+
+.block-text:hover {
+    font-size: 29px;
+    cursor: pointer;
+}
+
+.transparent-block {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.character-block {
+    height: 500px;
+    background-image: url(img/testfolder/p5cover2.jpg);
+    background-size: cover;
+    margin-bottom: 20px;
+    background-position: 5%
+}
+
+.seperate-block-top {
+    background-image: url(img/testfolder/p5test.jpg);
+    background-size: cover;
+    height: 245px;
+}
+
+.seperate-block-bottom {
+    background-image: url(img/testfolder/p5redlight.jpg);
+    background-size: cover;
+    height: 245px;
+    margin-top: 10px;
+}
+/*#DEDEDE*/
+.table-bordered tr {
+    border: 1px solid #DEDEDE;
+    text-align: center;
+}
+
+.table-bordered td {
+    border: 1px solid #DEDEDE;
+    
+}
+
+.table-bordered th {
+    border: 1px solid #DEDEDE;
+    text-align: center;
+}
+.jumbotron {
+    font-family: Persona5;
+    background-image: linear-gradient(rgba(0, 0, 0, 3), rgba(0, 0, 0, 0.6)), url(img/covers/persona.jpg);
+    background-size: cover;
+    background-position: 50% 20%;
+}
+
+.under-text {
+    font-size: 30px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.card {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-block p {
+    padding: 0px 10px 15px 10px;
+}
+
+
+.table-image {
+   
+}
+
+.testColor {
+    background-image: url(img/allouts/makotoout.jpg);
+}
