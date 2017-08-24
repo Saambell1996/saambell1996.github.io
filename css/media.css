@@ -2,9 +2,11 @@
     .table-image {
         display: none;
     }
+    
+    
 }
 
-@media (max-width:360px) {
+@media (max-width:414px) {
     .display-2 {
         font-size:60px!important;
     }
@@ -16,5 +18,14 @@
     }
     .table-bordered tr {
         font-size: 13px;
+    }
+    
+    .character-block {
+        height:245px!important;
+    }
+    
+    .character-block {
+        margin-bottom: 10px!important;
+       
     }
 }
