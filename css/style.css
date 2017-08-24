@@ -112,6 +112,10 @@ body {
     background-position:20% 50%;
 }
 
+.thumb-holder {
+    text-align: center;
+}
+
 .transparent-block-header {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
