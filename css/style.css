@@ -105,8 +105,9 @@ body {
 }
 
 .test-header {
-    background-image: url(img/testfolder/p5test.jpg);
-    height: 235px;
+    /*background-image: url(img/testfolder/p5test.jpg);*/
+    background-color: #E82423;
+    height: 155px;
     margin-bottom: 40px;
     background-size: cover;
     background-position:20% 50%;
