@@ -86,10 +86,7 @@ body {
     height: 245px;
     margin-top: 10px;
 }
-
-
 /*#DEDEDE*/
-
 .table-bordered tr {
     border: 1px solid #DEDEDE;
     text-align: center;
@@ -97,33 +94,13 @@ body {
 
 .table-bordered td {
     border: 1px solid #DEDEDE;
+    
 }
 
 .table-bordered th {
     border: 1px solid #DEDEDE;
     text-align: center;
 }
-
-.test-header {
-    background-image: url(img/testfolder/p5test.jpg);
-    height: 235px;
-    margin-bottom: 40px;
-    background-size: cover;
-    background-position:20% 50%;
-}
-
-.transparent-block-header {
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 100%;
-    width: 100%;
-    color: white;
-    font-family: Persona5;
-    text-align: center;
-    font-size: 100px;
-}
-
-
-
 .jumbotron {
     font-family: Persona5;
     background-image: linear-gradient(rgba(0, 0, 0, 3), rgba(0, 0, 0, 0.6)), url(img/covers/persona.jpg);
@@ -148,4 +125,11 @@ body {
     padding: 0px 10px 15px 10px;
 }
 
-.table-image {}
+
+.table-image {
+   
+}
+
+.testColor {
+    background-image: url(img/allouts/makotoout.jpg);
+}
