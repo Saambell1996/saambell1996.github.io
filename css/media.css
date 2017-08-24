@@ -24,3 +24,13 @@
         margin-bottom: 10px;
     }
 }
+
+@media (max-width:767px){
+    .row .character-block {
+        height:245px;
+    }
+    
+     .row .character-block {
+        margin-bottom: 10px;
+    }
+}
