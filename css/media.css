@@ -6,16 +6,15 @@
 
 @media (max-width:360px) {
     .display-2 {
-        font-size: 70px;
+        font-size:50px;
     }
-    .under-text {
-        font-size: 20px;
-    }
+   .under-text {
+    font-size: 200px;
+}
     .nav-bar {
         padding-right: 45px;
     }
-    
     .table-bordered tr {
-    font-size: 13px;
+        font-size: 13px;
     }
 }
