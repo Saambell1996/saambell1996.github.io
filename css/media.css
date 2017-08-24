@@ -6,10 +6,10 @@
 
 @media (max-width:360px) {
     .display-2 {
-        font-size:50px;
+        font-size:60px!important;
     }
    .under-text {
-    font-size: 200px;
+    font-size: 25px!important;
 }
     .nav-bar {
         padding-right: 45px;
