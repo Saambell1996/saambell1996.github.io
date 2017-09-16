@@ -2,6 +2,12 @@ body {
     background-color: whitesmoke;
 }
 
+.noshadow {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
 .banner-p5 {
     box-shadow: 2px 2px 5px #888888;
 }
@@ -24,7 +30,6 @@ body {
     display: inline-block;
     font-size: 28px;
     padding-left: 35px;
-    
 }
 
 .nav-bar ul li:hover {
@@ -86,8 +91,6 @@ body {
     height: 245px;
     box-shadow: 4px 4px 4px #888888;
 }
-
-
 
 .seperate-block-bottom {
     background-image: url(img/testfolder/p5redlight.jpg);
@@ -159,7 +162,7 @@ body {
 .card {
     margin-bottom: 20px;
     text-align: center;
-     box-shadow: 1px 1px 1px #888888;
+    box-shadow: 1px 1px 1px #888888;
 }
 
 .card-block p {
@@ -184,4 +187,43 @@ a.back-to-top {
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
+}
+
+
+/* Text CSS */
+
+.title-underline {
+    text-decoration: underline;
+}
+
+
+/* SOCIAL */
+
+.social-table {
+    margin-bottom:30px;
+}
+
+.social-img {
+    margin-bottom:40px;
+}
+
+.social-title {
+   
+}
+
+.social-section {
+    margin-top:20px;
+}
+
+.knowledge-img {
+    margin-top:15px;
+    padding-bottom:40px;
+}
+
+.knowledge-title {
+    margin-bottom:15px;
+}
+
+.knowledge-section {
+    margin-top: 20px;
 }
