@@ -2,6 +2,10 @@ body {
     background-color: whitesmoke;
 }
 
+.banner-p5 {
+    box-shadow: 2px 2px 5px #888888;
+}
+
 .nav-bar {
     padding-top: 50px;
 }
@@ -71,20 +75,25 @@ body {
     background-image: url(img/testfolder/p5cover2.jpg);
     background-size: cover;
     margin-bottom: 20px;
-    background-position: 5%
+    background-position: 5%;
+    box-shadow: 4px 4px 4px #888888;
 }
 
 .seperate-block-top {
     background-image: url(img/testfolder/p5test.jpg);
     background-size: cover;
     height: 245px;
+    box-shadow: 4px 4px 4px #888888;
 }
+
+
 
 .seperate-block-bottom {
     background-image: url(img/testfolder/p5redlight.jpg);
     background-size: cover;
     height: 245px;
     margin-top: 10px;
+    box-shadow: 4px 4px 4px #888888;
 }
 
 
@@ -104,13 +113,17 @@ body {
     text-align: center;
 }
 
+.test-table {
+    /* Spare CSS styles if needed for test table */
+}
+
 .test-header {
     /*background-image: url(img/testfolder/p5test.jpg);*/
     background-color: #E82423;
     height: 155px;
     margin-bottom: 40px;
     background-size: cover;
-    background-position:20% 50%;
+    background-position: 20% 50%;
 }
 
 .thumb-holder {
@@ -126,8 +139,6 @@ body {
     text-align: center;
     font-size: 100px;
 }
-
-
 
 .jumbotron {
     font-family: Persona5;
@@ -154,3 +165,21 @@ body {
 }
 
 .table-image {}
+
+
+/* Back to top functionality */
+
+a.back-to-top {
+    display: none;
+    width: 60px;
+    height: 60px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    background: black url(img/up-arrow.png) no-repeat center 43%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
