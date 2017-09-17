@@ -206,7 +206,7 @@ a.back-to-top {
 }
 
 
-/* SOCIAL */
+/* SOCIAL ELEMENTS */
 
 .social-table {
     margin-bottom: 30px;
@@ -246,3 +246,80 @@ a.back-to-top {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.guts-img {
+    margin-top: 15px;
+    padding-bottom: 40px;
+    padding-left:30px;
+    padding-right:30px;
+  
+}
+
+.guts-title {
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+.guts-section {
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.proficiency-img {
+    margin-top: 15px;
+    padding-bottom: 40px;
+    padding-left:30px;
+    padding-right:30px;
+  
+}
+
+.proficiency-title {
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+.proficiency-section {
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.kindness-img {
+    margin-top: 15px;
+    padding-bottom: 40px;
+    padding-left:30px;
+    padding-right:30px;
+  
+}
+
+.kindness-title {
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+.kindness-section {
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.charm-img {
+    margin-top: 15px;
+    padding-bottom: 40px;
+    padding-left:30px;
+    padding-right:30px;
+  
+}
+
+.charm-title {
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+.charm-section {
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
