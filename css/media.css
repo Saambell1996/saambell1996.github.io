@@ -7,6 +7,10 @@
     .container .table-social {
         font-size: 10px;
     }
+    
+   
+    
+  
 }
 
 
@@ -32,7 +36,7 @@
     }
     .row .character-block {
         margin-bottom: 10px;
-    }
+   
 }
 
 @media (max-width:375px) {
