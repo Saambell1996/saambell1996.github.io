@@ -220,6 +220,7 @@ a.back-to-top {
 
 .social-title {
     padding-left: 30px;
+    padding-right: 30px;
 }
 
 .social-section {
@@ -239,6 +240,7 @@ a.back-to-top {
 .knowledge-title {
     margin-bottom: 30px;
     padding-left: 30px;
+    padding-right: 30px;
 }
 
 .knowledge-section {
@@ -258,6 +260,7 @@ a.back-to-top {
 .guts-title {
     margin-bottom: 30px;
     padding-left: 30px;
+    padding-right: 30px;
 }
 
 .guts-section {
@@ -277,6 +280,7 @@ a.back-to-top {
 .proficiency-title {
     margin-bottom: 30px;
     padding-left: 30px;
+    padding-right: 30px;
 }
 
 .proficiency-section {
@@ -297,6 +301,7 @@ a.back-to-top {
 .kindness-title {
     margin-bottom: 30px;
     padding-left: 30px;
+    padding-right: 30px;
 }
 
 .kindness-section {
@@ -316,11 +321,16 @@ a.back-to-top {
 .charm-title {
     margin-bottom: 30px;
     padding-left: 30px;
+    padding-right: 30px;
 }
 
 .charm-section {
     margin-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.no-scroll {
+    overflow-x: hidden;
 }
 
