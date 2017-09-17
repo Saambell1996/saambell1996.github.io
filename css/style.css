@@ -2,11 +2,19 @@ body {
     background-color: #f6f6f6;
 }
 
-.no-padding {
-  padding-left: 0;
-  padding-right: 0;
-}
+ /*.background {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/html/img/Social/cross-over2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  
+}*/
 
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 .white {
     background-color: white;
@@ -81,17 +89,15 @@ body {
 }
 
 .character-block {
-
     height: 500px;
     background-image: url(img/testfolder/p5cover2.jpg);
     background-size: cover;
     margin-bottom: 20px;
-      background-position: 5%;
+    background-position: 5%;
     box-shadow: 4px 4px 4px #888888;
 }
 
 .seperate-block-top {
-
     background-image: url(img/testfolder/p5test.jpg);
     background-size: cover;
     height: 245px;
@@ -156,8 +162,6 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 3), rgba(0, 0, 0, 0.6)), url(img/covers/persona.jpg);
     background-size: cover;
     background-position: 50% 20%;
-   
- 
 }
 
 .under-text {
@@ -213,9 +217,7 @@ a.back-to-top {
 }
 
 .social-img {
-  
     margin-bottom: 40px;
-
 }
 
 .social-title {
@@ -232,9 +234,8 @@ a.back-to-top {
 .knowledge-img {
     margin-top: 15px;
     padding-bottom: 40px;
-    padding-left:30px;
-    padding-right:30px;
-  
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .knowledge-title {
@@ -252,9 +253,8 @@ a.back-to-top {
 .guts-img {
     margin-top: 15px;
     padding-bottom: 40px;
-    padding-left:30px;
-    padding-right:30px;
-  
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .guts-title {
@@ -272,9 +272,8 @@ a.back-to-top {
 .proficiency-img {
     margin-top: 15px;
     padding-bottom: 40px;
-    padding-left:30px;
-    padding-right:30px;
-  
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .proficiency-title {
@@ -292,11 +291,9 @@ a.back-to-top {
 .kindness-img {
     margin-top: 15px;
     padding-bottom: 40px;
-    padding-left:30px;
-    padding-right:30px;
-  
+    padding-left: 30px;
+    padding-right: 30px;
 }
-
 
 .kindness-title {
     margin-bottom: 30px;
@@ -313,9 +310,8 @@ a.back-to-top {
 .charm-img {
     margin-top: 15px;
     padding-bottom: 40px;
-    padding-left:30px;
-    padding-right:30px;
-  
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .charm-title {
@@ -331,6 +327,5 @@ a.back-to-top {
 }
 
 .no-scroll {
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
-
