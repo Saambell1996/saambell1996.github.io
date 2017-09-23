@@ -12,16 +12,20 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
     <link rel="shortcut icon" href="/html/img/icon/jackfrost.ico" type="image/x-icon">
-    <script src="html/js/nightmode.js"></script>
+    <script src="html/js/jquery-3.2.1.min.js"></script>
 
 </head>
 
 
-
-
 <body>
 
-
+    <script>
+        $(document).ready(function() {
+            $("#progress").click(function() {
+                $("#progress").hide();
+            });
+        });
+    </script>
 
 
 
@@ -37,20 +41,20 @@
                     <li><a href="#">Palaces</a></li>
                     <li><a href="#">Fusions</a></li>
                     <!-- <li><button onclick="nightMode()">Lights Off</button></li> -->
-        
+
 
                 </ul>
             </div>
-            
+
         </div>
 
     </div>
-      
+
     <div class="container">
 
         <div class="row">
             <div class="col-lg-8 col-md-12 col-sm-12">
-        
+
                 <div class="character-block">
                     <div class="row">
                         <div class="col-lg-12">
@@ -60,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-       
+
             </div>
 
 
@@ -82,18 +86,18 @@
                         </div>
                     </a>
 
-                    
-                               <a href="social.html">
-                    <div class="seperate-block-bottom">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="transparent-block align-self-lg-center">
-                                    <p class="block-text">Social</p>
+
+                    <a href="social.html">
+                        <div class="seperate-block-bottom">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="transparent-block align-self-lg-center">
+                                        <p class="block-text">Social</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                    </div>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -187,6 +191,8 @@
                     </div>
                 </div>
 
+
+
                 <br>
 
 
@@ -200,6 +206,9 @@
 
             </div>
 
+        </div>
+        <div id="progress">
+            <img src="css/img/progressbar/P5bar.png">
         </div>
     </div>
 

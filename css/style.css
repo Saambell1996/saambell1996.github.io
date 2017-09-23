@@ -2,7 +2,8 @@ body {
     background-color: #f6f6f6;
 }
 
- /*.background {
+
+/*.background {
    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/html/img/Social/cross-over2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -142,6 +143,31 @@ body {
     background-size: cover;
     background-position: 20% 50%;
 }
+
+#progress {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+ 
+}
+
+#progress img {
+    opacity: 0.9;
+}
+
+#progress:hover{
+    cursor: pointer;
+}
+
+#progress-close {
+    height: 15px;
+    width: 15px;
+    position:absolute;
+    background-color: orange;
+    margin-left:425px;
+}
+
+
 
 .thumb-holder {
     text-align: center;
