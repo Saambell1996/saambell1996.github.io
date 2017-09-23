@@ -144,30 +144,34 @@ body {
     background-position: 20% 50%;
 }
 
+
+
 #progress {
     position: fixed;
     bottom: 0;
     right: 0;
- 
 }
 
 #progress img {
     opacity: 0.9;
 }
 
-#progress:hover{
-    cursor: pointer;
+#progress:hover img {
+    opacity: 0.85;
 }
+
 
 #progress-close {
     height: 15px;
     width: 15px;
-    position:absolute;
+    position: absolute;
     background-color: orange;
-    margin-left:425px;
+    margin-left: 425px;
 }
 
-
+#progress:hover {
+    cursor: pointer;
+}
 
 .thumb-holder {
     text-align: center;
@@ -219,21 +223,6 @@ body {
 
 
 /* Back to top functionality */
-
-a.back-to-top {
-    display: none;
-    width: 60px;
-    height: 60px;
-    text-indent: -9999px;
-    position: fixed;
-    z-index: 999;
-    right: 20px;
-    bottom: 20px;
-    background: black url(img/up-arrow.png) no-repeat center 43%;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
-}
 
 
 /* Text CSS */

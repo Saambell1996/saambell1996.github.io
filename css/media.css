@@ -1,44 +1,44 @@
                         @media (max-width:450px) {
-                        .table-image {
-                            display: none;
-                        }
-                        .container .table-social {
-                            font-size: 10px;
-                        }
-                        .jumbotron-mobile {
-                            display: none;
-                        }
-
-                    }
-                    
-                    @media (max-width:414px) {
-                        .container .table-social {
-                            font-size: 10px;
-                        }
-                        .container .display-2 {
-                            font-size: 60px;
-                        }
-                        .container .under-text {
-                            font-size: 25px;
-                        }
-                        .nav-bar {
-                            padding-right: 45px;
-                        }
-                        .table-bordered tr {
-                            font-size: 13px;
-                        }
-                        .row .character-block {
-                            height: 245px;
-                        }
-                        .row .character-block {
-                            margin-bottom: 10px;
-                        }
-                        @media (max-width:375px) {
+                            .table-image {
+                                display: none;
+                            }
                             .container .table-social {
-                                font-size: 3px;
+                                font-size: 10px;
+                            }
+                            .jumbotron-mobile {
+                                display: none;
                             }
                         }
-}
+                        
+                        @media (max-width:414px) {
+                            .container .table-social {
+                                font-size: 10px;
+                            }
+                            .container .display-2 {
+                                font-size: 60px;
+                            }
+                            .container .under-text {
+                                font-size: 25px;
+                            }
+                            .nav-bar {
+                                padding-right: 45px;
+                            }
+                            .table-bordered tr {
+                                font-size: 13px;
+                            }
+                            .row .character-block {
+                                height: 245px;
+                            }
+                            .row .character-block {
+                                margin-bottom: 10px;
+                            }
+                            @media (max-width:375px) {
+                                .container .table-social {
+                                    font-size: 3px;
+                                }
+                            }
+                        }
+                        
                         @media (max-width:767px) {
                             .table-social {
                                 font-size: 13px;
@@ -55,14 +55,21 @@
                             .row .test-header {
                                 background-position: 0% 0%;
                             }
-                            
-                            
+                            .character-block {
+                                background-position: 20%;
+                            }
+                        }
+                        
+                        @media (max-width:990px) {
+                            .container .character-block {
+                                background-position: 65%;
+                             
+                            }
                         }
                         
                         @media (max-width:1023px) {
-                             .container #progress {
-                                display:none;
+                            .container #progress {
+                                display: none;
+                               
                             }
-                            
                         }
-                     
